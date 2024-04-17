@@ -52,12 +52,16 @@ https://youtu.be/PeLrxXUbq0g?si=doWgMNpqIP_2NphR
 ### Intro To Unity
 
 Have the students open the NUAC_VR_Class Project in Unity. The layout used in this class is 2 by 3.
-(ReadMe_Files\UnityLayout.png)
+[UnityLayout](ReadMe_Files\UnityLayout.png)
 
 #### Unity Layout
+
 https://learn.unity.com/tutorial/explore-the-unity-editor-1#6273f00fedbc2a7f158cc1ee
 
+
+
 #### Position, Rotation, Scale
+
 https://docs.unity3d.com/Manual/class-Transform.html
 
 #### Build a Snowman
