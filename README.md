@@ -52,7 +52,7 @@ https://youtu.be/PeLrxXUbq0g?si=doWgMNpqIP_2NphR
 ### Intro To Unity
 
 Have the students open the NUAC_VR_Class Project in Unity. The layout used in this class is 2 by 3.
-[UnityLayout](ReadMe_Files/UnityLayout.png)
+[UnityLayout](Readme_Files/UnityLayout.png)
 
 #### Unity Layout
 
