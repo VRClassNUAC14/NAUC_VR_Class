@@ -79,6 +79,8 @@ Using Unity's Create With VR project, we are going to design a living room.
 ## Session 3: Living Room 2: Import Assets Into The Living Room
 Student's continue to build our their living rooms. They now download assets form the Unity Asset Store* and import them into the project.
 
+![ImportImages](Readme_Files/ImportImages.mp4)
+
 ## Session 5: Coding
 Students will review two scripts and write thier own. the result is a button that makes an explosion.
 
