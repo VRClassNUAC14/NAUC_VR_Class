@@ -1,0 +1,20 @@
+using UnityEngine;                                          // We will pull from Unity's code libraries
+
+public class OnTrigger_Explosion : MonoBehaviour            // Name of the class and script        
+{
+    public GameObject explosionPrefab;                      // Explosion we will create
+    public Transform locationExplode;                       // Where we will create it
+
+    private void OnTriggerEnter(Collider other)             // If something hits me..
+    {
+        if (other.name.Contains("Controller"))              // and they have 'Controller' in their name..
+        {
+            Explode();                                      // Call Explode function
+        }
+    }
+    private void Explode()                                  // Explode function
+    {                                                       // Create a new explosion at our location
+        GameObject newExplosion = GameObject.Instantiate(explosionPrefab, locationExplode);
+        Destroy(newExplosion, 2.0f);                        // Destroy the explosion after effect is done
+    }
+}
