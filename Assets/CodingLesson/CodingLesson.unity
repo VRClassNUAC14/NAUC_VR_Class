@@ -1731,7 +1731,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hit_Music
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 576245521262024732, guid: b1537290f47c63744ac10546e5a71f18, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b1537290f47c63744ac10546e5a71f18, type: 3}
 --- !u!1 &860917602 stripped
 GameObject:
@@ -2086,8 +2087,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 415f2e46fc0621d4fada424441002b15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  explosion: {fileID: 1892078723244562, guid: 46876a2780737ec45a19d62f88e5ce56, type: 3}
-  locationExplode: {fileID: 1111576213}
 --- !u!65 &968669990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2223,7 +2222,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1181480831}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.35, y: 0.80882126, z: -0.454}
+  m_LocalPosition: {x: 0.354, y: 0.80882126, z: -0.635}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
