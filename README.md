@@ -82,7 +82,13 @@ Student's continue to build our their living rooms. They now download assets for
 ![ImportImages](Readme_Files/ImportImages.mp4)
 
 ## Session 5: Coding
-Students will review two scripts and write thier own. the result is a button that makes an explosion.
+Students will review two scripts and write thier own. The result is a button that makes an explosion. Please review this video prio to the class:
+
+https://youtu.be/m0IanoBHJuc
+
+The code can be found in Readme_files folder
+- ExplodeScript.pdf: meant to be printed prior to class. One per student
+- OnTriggerExplode.txt: meant to be copied and pasted for the teacher.
 
 ## Session 6: Block Slicer 1: Import A Song
 Students will be introduced to Block Slicer project. They can choose a song on youtube*, convert it to mp3, and import it into the project.
