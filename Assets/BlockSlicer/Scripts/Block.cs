@@ -36,6 +36,7 @@ public class Block : MonoBehaviour
             scoreKeeper.DecreaseLives();
         }
         gameObject.SetActive(false);
-        
+        ParticleSystem newExplode = Instantiate(Explosion, transform.position, Quaternion.identity);
+        Destroy(newExplode.gameObject, 2.0f);
     }
 }

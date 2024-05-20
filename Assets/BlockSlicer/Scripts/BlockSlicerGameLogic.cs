@@ -12,6 +12,7 @@ public class BlockSlicerGameLogic : MonoBehaviour
     public TMP_Text GameScoreText, EndGameScoreText, WinLoseText; 
     public GameObject Level;
     public AudioClip Music;
+    float timeStart = -1;
 
     private void Start()
     {
@@ -33,11 +34,20 @@ public class BlockSlicerGameLogic : MonoBehaviour
         Level.SetActive(true);
         StartCoroutine("YieldEndOfLevel");
         GetComponent<AudioSource>().PlayOneShot(Music);
+        timeStart = Time.time;
     }
+    private void Update()
+    {
+        if(timeStart > 0)
+        {
+            Debug.Log(Time.time - timeStart);
+        }
+    }
+
 
     IEnumerator YieldEndOfLevel()
     {
-        yield return new WaitForSeconds(Music.length + 1.0f);
+        yield return new WaitForSeconds(Music.length + 100.0f);
         if(Level.activeInHierarchy)
         {
             FinishedSong();
