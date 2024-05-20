@@ -76,6 +76,19 @@ Extra Challenges:
 ## Session 2: Living Room 1: Build a Living Room
 Using Unity's Create With VR project, we are going to design a living room.
 
+Starting with Assets/Scenes/Create-with-VR-Startr-Scene.unity, have the student open the scene and save it with their name:
+
+example: LivingRoom_JohnDoe.unity
+
+You can use the following lesson plan segments from Create With VR:
+1.2 - Explore the StarterScene
+1.3 - Add a room and backaground
+https://learn.unity.com/tutorial/vr-project-setup?uv=2022.3&courseId=60183276edbc2a2e6c4c7dae&projectId=60183335edbc2a2e6c4c7dcb#65c511fbedbc2a263ed98726
+
+Once the room is in, hide the floor plane by disabling its renderer so it does not clip into the room floor.
+
+Have the students furnish the living room with prefabs in Assets/_Course Library/_Prefabs
+
 ## Session 3: Living Room 2: Import Assets Into The Living Room
 Student's continue to build our their living rooms. They now download assets form the Unity Asset Store* and import them into the project.
 
