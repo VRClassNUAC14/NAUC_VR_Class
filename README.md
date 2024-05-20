@@ -106,7 +106,9 @@ The first half of the project is wrapping up the game. The second half is testin
 
 I suggest providing each station with a notepad and pencil for constructive feedback.
 
-There is an email
+Often students have asked 'What now?'. To help answer this question, I created this doc: https://docs.google.com/document/d/1-Zr1-BWbv38F5prGsQcs3Cpi0dr8enqO48IX3qsXLcw/edit?usp=sharing
+
+I encourage the teacher to review this document with the class then copy the content to an email and send it to any student tht is interested.
 
 
 *Any and all contant that is imported into our projects will be 'class appropriate / PG'. If a student is unsure if content is fits that category, teacher is encouraged to make a judgement call.
