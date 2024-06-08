@@ -97,7 +97,7 @@ https://youtu.be/m0IanoBHJuc
 ## Session 5: Coding
 Students will review two scripts and write thier own. The result is a button that makes an explosion. Please review this video prio to the class:
 
-https://youtu.be/m0IanoBHJuc
+https://www.youtube.com/watch?v=5WWv2AALDEw
 
 The code can be found in Readme_files folder
 - ExplodeScript.pdf: meant to be printed prior to class. One per student
