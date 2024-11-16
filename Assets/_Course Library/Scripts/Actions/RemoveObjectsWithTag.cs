@@ -1,15 +1,3 @@
-﻿using UnityEngine;
-
-/// <summary>
-/// Removes all objects in a scene using a particular tag
-/// </summary>
-public class RemoveObjectsWithTag : MonoBehaviour
-{
-    public void RemoveObjects(string tag)
-    {
-        GameObject[] taggedObjects = GameObject.FindGameObjectsWithTag(tag);
-
-        foreach (GameObject targetObject in taggedObjects)
-            Destroy(targetObject);  
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dd914fa004161e5b74835dc657f451d45931ab22568bca115ff4a6448ec30bc1
+size 407

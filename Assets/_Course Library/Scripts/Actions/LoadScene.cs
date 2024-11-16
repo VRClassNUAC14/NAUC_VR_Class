@@ -1,18 +1,3 @@
-﻿using UnityEngine;
-using UnityEngine.SceneManagement;
-
-/// <summary>
-/// Load scene using name, or reload the active scene
-/// </summary>
-public class LoadScene : MonoBehaviour
-{
-    public void LoadSceneUsingName(string sceneName)
-    {
-        SceneManager.LoadScene(sceneName);
-    }
-
-    public void ReloadCurrentScene()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:833417a2cf76c5750b811d373cfb25ad4351399ce03a9f17c534e62a60d876b6
+size 428

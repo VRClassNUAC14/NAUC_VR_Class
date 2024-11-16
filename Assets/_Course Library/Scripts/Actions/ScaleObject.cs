@@ -1,20 +1,3 @@
-﻿using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
-
-public class ScaleObject : MonoBehaviour
-{
-    public Vector3 targetScale = Vector3.one;
-    private Vector3 originalScale = Vector3.one;
-
-    public void ApplyTargetScale(XRBaseInteractable interactable)
-    {
-        originalScale = interactable.transform.localScale;
-        interactable.transform.localScale = targetScale;
-    }
-
-    public void ResetScale(XRBaseInteractable interactable)
-    {
-        interactable.transform.localScale = originalScale;
-        originalScale = Vector3.one;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:101783005118575c06654959addaed21cf10e7de0f28ebbda53b55699f52e75e
+size 589

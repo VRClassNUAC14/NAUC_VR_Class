@@ -1,35 +1,3 @@
-﻿using UnityEngine;
-
-/// <summary>
-/// Sets the color of a light using color or HUE
-/// </summary>
-[RequireComponent(typeof(Light))]
-public class SetLightColor : MonoBehaviour
-{
-    private Light currentLight = null;
-
-    private void Awake()
-    {
-        currentLight = GetComponent<Light>();
-    }
-
-    public void SetColor(Color color)
-    {
-        currentLight.color = color;
-    }
-
-    public void SetHue(float value)
-    {
-        Color.RGBToHSV(currentLight.color, out _, out float s, out float v);
-
-        value = Mathf.Clamp(value, 0, 1);
-        Color newColor = Color.HSVToRGB(value, s, v);
-
-        currentLight.color = newColor;
-    }
-
-    public void ResetColor()
-    {
-        currentLight.color = Color.white;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d7d31dbe8decea2dea76041dcb7126b176f64b5167f7ea8b393103d150a01aa
+size 774

@@ -1,34 +1,3 @@
-﻿using UnityEngine;
-
-/// <summary>
-/// Set volume of audio source in increments
-/// </summary>
-[RequireComponent(typeof(AudioSource))]
-public class SetVolume : MonoBehaviour
-{
-    [Tooltip("The amount of change when changing the volume")]
-    public float step = 0.1f;
-    private AudioSource audioSource = null;
-
-    private void Awake()
-    {
-        audioSource = GetComponent<AudioSource>();
-    }
-
-    public void SetAudioVolume(float value)
-    {
-        audioSource.volume = value;
-    }
-
-    public void IncreaseVolume()
-    {
-        float newVolume = audioSource.volume + step;
-        audioSource.volume = newVolume;
-    }
-
-    public void DecreaseVolume()
-    {
-        float newVolume = audioSource.volume - step;
-        audioSource.volume = newVolume;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:636ca6730bc196130162b60b6e6294e2c42a3373a0b2c5352c94a427be04d945
+size 811

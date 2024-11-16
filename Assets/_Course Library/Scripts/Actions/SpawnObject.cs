@@ -1,24 +1,3 @@
-﻿using UnityEngine;
-
-/// <summary>
-/// Spawn an object at a transform's position
-/// </summary>
-public class SpawnObject : MonoBehaviour
-{
-    [Tooltip("The object that will be spawned")]
-    public GameObject originalObject = null;
-
-    [Tooltip("The transform where the object is spanwed")]
-    public Transform spawnPosition = null;
-
-    public void Spawn()
-    {
-        Instantiate(originalObject, spawnPosition.position, spawnPosition.rotation);
-    }
-
-    private void OnValidate()
-    {
-        if (!spawnPosition)
-            spawnPosition = transform;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7732ca1f41bb3e6d504557ee8ee1579203f9e2f6435c90f081edbb98f39d8db1
+size 596

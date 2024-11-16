@@ -1,30 +1,3 @@
-using UnityEngine;
-
-[RequireComponent(typeof(AudioSource))]          // Ensure we have an audio source
-public class OnTrigger_Audio : MonoBehaviour     // Name of the class and script
-{
-    AudioSource myAudio;                         // Declaring a variable 
-    void Start()
-    {
-        myAudio = GetComponent<AudioSource>();   // Assigning a variable
-    }
-    private void OnTriggerEnter(Collider other)  // When my trigger is hit
-    {
-        if (other.name.Contains("Controller"))   // and what hit me name has 'Controller'
-        {
-            FlipAudioSwitch();                   // call FlipAudioSwitch()               
-        }
-    }
-    private void FlipAudioSwitch()
-    {
-        if (myAudio.isPlaying)                   // If my audio is playing, turn it off
-        {
-            myAudio.Stop();
-        }
-        else
-        {
-            myAudio.Play();                      // Otherwise, turn it on
-        }
-    }
-}
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:e698f3f06e0c5a61b63f982feeaaf3e77930ffa3be2d97d69d5a07c009aa64fd
+size 972

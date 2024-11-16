@@ -1,34 +1,3 @@
-using UnityEngine;
-using TMPro;
-
-public class ScoreKeeper : MonoBehaviour
-{
-    public TMP_Text scoreBoard;
-    public TMP_Text livesLeftBoard;
-
-    int score = 0;
-    int pointsPerHit = 10;
-
-    int livesLeft = 5;
-
-    public BlockSlicerGameLogic gameLogic;
-
-    private void Start()
-    {
-        livesLeftBoard.text = livesLeft.ToString();
-    }
-    public void IncreaseScore()
-    {
-        score += pointsPerHit;
-        scoreBoard.text = score.ToString();
-    }
-    public void DecreaseLives()
-    {
-        livesLeft--;
-        if(livesLeft <= 0)
-        {
-            gameLogic.GameOver();
-        }
-        livesLeftBoard.text = livesLeft.ToString();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:81ef9fd3d8ad1c6aa0b0d1b8730f731b92fb85ebc36f94fd91f1167f2dda789f
+size 702

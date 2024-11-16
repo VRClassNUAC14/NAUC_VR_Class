@@ -1,33 +1,3 @@
-﻿using System;
-using UnityEngine;
-using UnityEngine.Events;
-
-/// <summary>
-/// Calls functionality when a collision occurs
-/// </summary>
-public class OnCollision : MonoBehaviour
-{
-    [Serializable] public class CollisionEvent : UnityEvent<Collision> { }
-
-    // When the object enters a collision
-    public CollisionEvent OnEnter = new CollisionEvent();
-
-    // When the object exits a collision
-    public CollisionEvent OnExit = new CollisionEvent();
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        OnEnter.Invoke(collision);
-    }
-
-    private void OnCollisionExit(Collision collision)
-    {
-        OnExit.Invoke(collision);
-    }
-
-    private void OnValidate()
-    {
-        if (TryGetComponent(out Collider collider))
-            collider.isTrigger = false;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ae164d5a6876041798599af5c551fe2502dde8cfb800c34c1d14fe8414cd86ca
+size 832
