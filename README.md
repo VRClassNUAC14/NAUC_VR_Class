@@ -1,6 +1,7 @@
 # VR_Class
 
  Students will learn the basics of game development and Virtual Reality by creating a game! This course will cover topics such as game engines, 3D space, art assets, and an introduction to coding. We will bring it all together to create a game in virtual reality. No programming experience is necessary but participants need a general familiarity with computers and using software.
+ ![VRIntro](Readme_Files/CreateWithVR.jpg)
 
 # Cirriculum
 
