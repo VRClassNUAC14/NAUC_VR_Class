@@ -5,7 +5,7 @@
 
 # Cirriculum
 
-## Session 1: Overview
+## Lesson 1: Overview
 VR Safety, Intro To Unity (Position, Rotation Scale), Build A Snowman
 
 ### VR Safety
@@ -74,7 +74,7 @@ Extra Challenges:
 - Add a face
 - Add color: https://youtube.com/shorts/mJ2y-eNDTxY?si=_dYi70ktqydniQac
 
-## Session 2: Living Room 1: Build a Living Room
+## Lesson 2: Living Room 1: Build a Living Room
 Using Unity's Create With VR project, we are going to design a living room.
 
 Starting with Assets/Scenes/Create-with-VR-Startr-Scene.unity, have the student open the scene and save it with their name:
@@ -90,12 +90,12 @@ Once the room is in, hide the floor plane by disabling its renderer so it does n
 
 Have the students furnish the living room with prefabs in Assets/_Course Library/_Prefabs
 
-## Session 3: Living Room 2: Import Assets Into The Living Room
+## Lesson 3: Living Room 2: Import Assets Into The Living Room
 Student's continue to build our their living rooms. They now download assets form the Unity Asset Store* and import them into the project.
 
 https://youtu.be/m0IanoBHJuc
 
-## Session 5: Coding
+## Lesson 5: Coding
 Students will review two scripts and write thier own. The result is a button that makes an explosion. Please review this video prio to the class:
 
 https://www.youtube.com/watch?v=5WWv2AALDEw
@@ -104,18 +104,18 @@ The code can be found in Readme_files folder
 - ExplodeScript.pdf: meant to be printed prior to class. One per student
 - OnTriggerExplode.txt: meant to be copied and pasted for the teacher.
 
-## Session 6: Block Slicer 1: Import A Song
+## Lesson 6: Block Slicer 1: Import A Song
 Students will be introduced to Block Slicer project. They can choose a song on youtube*, convert it to mp3, and import it into the project.
 
 Block Slicer Overview, Script Description, Import A Song, Level Design:
 https://youtu.be/sKdPo2XSR9I
 
-## Session 7: Block Slicer 2: Import Assets
+## Lesson 7: Block Slicer 2: Import Assets
 Students continue the Block Slicer project, adding assets into the game to fit their theme.
 
 https://youtu.be/q5ejxITvEh8?si=KGsG8_Xfnx2bWijT
 
-## Session 8: Block Slicer Finale: Shocase
+## Lesson 8: Block Slicer Finale: Shocase
 The first half of the project is wrapping up the game. The second half is testing and providing feedback to each other's games.
 
 I suggest providing each station with a notepad and pencil for constructive feedback.
