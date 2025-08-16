@@ -6,7 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/BlockSlicer/Scenes/BlockSlicer.unity
+    path: Assets/_Course Library/BlockSlicer/Scenes/BlockSlicer.unity
     guid: 908152b3e35ff0947bc8332d3e290919
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ed72be55522c8448bae8b0d66fa21adf,
